@@ -14,9 +14,13 @@ if (myNum === 5) {
 
 // else if statements can be added to if statements to perform additional logic tests if the previouse if or else is atetements evaluate to false
 if (myNum > 0) {
-  console.log('myNum is greater than 0');
+  //console.log('myNum is greater than 0');
 } else if (myNum < 0) {
-  console.log('myNum is less than 0');
+  //console.log('myNum is less than 0');
 } else {
-  console.log('myNum is either 0 or is not a number');
+  //console.log('myNum is either 0 or is not a number');
+}
+
+if (1) {
+  console.log('1 is truthy');
 }
